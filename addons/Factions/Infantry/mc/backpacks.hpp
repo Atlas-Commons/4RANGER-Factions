@@ -1,6 +1,6 @@
 // --- Command & Leadership Backpacks ---
 
-class VSC_4RANGER_MC_PL_IC_pack: vsc_ilbe_a_Multicam
+class VSC_4RANGER_MC_PL_IC_pack: tfw_ilbe_blade_mc
 {
     scope = 1;
     class TransportMagazines
@@ -18,15 +18,13 @@ class VSC_4RANGER_MC_PL_IC_pack: vsc_ilbe_a_Multicam
         class _xx_tsp_lockpick {count=1; name="tsp_lockpick";};
         class _xx_ACE_UAVBattery {count=3; name="ACE_UAVBattery";};
         class _xx_VS_C_AR2_Item {count=2; name="VS_C_AR2_Item";};
-        class _xx_ACRE_PRC148 {count=1; name="ACRE_PRC148";};
-        class _xx_ACRE_PRC117F {count=1; name="ACRE_PRC117F";};
     };
     class TransportWeapons{};
 };
 
 class VSC_4RANGER_MC_PL_2IC_pack: VSC_4RANGER_MC_PL_IC_pack {};
 
-class VSC_4RANGER_MC_IC_pack: vsc_ilbe_a_Multicam
+class VSC_4RANGER_MC_IC_pack: tfw_ilbe_blade_mc
 {
     scope = 1;
     class TransportMagazines
@@ -44,14 +42,14 @@ class VSC_4RANGER_MC_IC_pack: vsc_ilbe_a_Multicam
         class _xx_tsp_lockpick {count=1; name="tsp_lockpick";};
         class _xx_ACE_UAVBattery {count=3; name="ACE_UAVBattery";};
         class _xx_VS_C_AR2_Item {count=2; name="VS_C_AR2_Item";};
-        class _xx_ACRE_PRC148 {count=1; name="ACRE_PRC148";};
+
     };
     class TransportWeapons{};
 };
 
 class VSC_4RANGER_MC_2IC_pack: VSC_4RANGER_MC_IC_pack {};
 
-class VSC_4RANGER_MC_JFO_pack: vsc_ilbe_a_Multicam
+class VSC_4RANGER_MC_JFO_pack: tfw_ilbe_blade_mc
 {
     scope = 1;
     class TransportMagazines
@@ -70,8 +68,6 @@ class VSC_4RANGER_MC_JFO_pack: vsc_ilbe_a_Multicam
         class _xx_tsp_lockpick {count=1; name="tsp_lockpick";};
         class _xx_ACE_UAVBattery {count=3; name="ACE_UAVBattery";};
         class _xx_VS_C_AR2_Item {count=2; name="VS_C_AR2_Item";};
-        class _xx_ACRE_PRC148 {count=1; name="ACRE_PRC148";};
-        class _xx_ACRE_PRC117F {count=1; name="ACRE_PRC117F";};
     };
     class TransportWeapons{};
 };
@@ -288,7 +284,7 @@ class VSC_4RANGER_MC_EOT_pack: UK3CB_BAF_B_Kitbag_MTP
     class TransportWeapons{};
 };
 
-class VSC_4RANGER_MC_CBRN_IC_pack: vsc_ilbe_a_Multicam
+class VSC_4RANGER_MC_CBRN_IC_pack: tfw_ilbe_blade_mc
 {
     scope = 1;
     class TransportMagazines
@@ -306,8 +302,6 @@ class VSC_4RANGER_MC_CBRN_IC_pack: vsc_ilbe_a_Multicam
         class _xx_ACE_UAVBattery {count=3; name="ACE_UAVBattery";};
         class _xx_VS_C_AR2_Item {count=2; name="VS_C_AR2_Item";};
         class _xx_G_CBRN_A_multicam {count=1; name="G_CBRN_A_multicam";};
-        class _xx_ACRE_PRC148 {count=1; name="ACRE_PRC148";};
-        class _xx_ACRE_PRC117F {count=1; name="ACRE_PRC117F";};
     };
     class TransportWeapons{};
 };
@@ -449,7 +443,7 @@ class VSC_4RANGER_MC_Drone_Tech_pack: UK3CB_BAF_B_Kitbag_MTP
 
 // --- Air Crew Backpacks ---
 
-class VSC_4RANGER_MC_Heli_Pilot_pack: vsc_ilbe_a_gr
+class VSC_4RANGER_MC_Heli_Pilot_pack: tfw_ilbe_DD_black
 {
     scope = 1;
     class TransportMagazines
@@ -465,13 +459,11 @@ class VSC_4RANGER_MC_Heli_Pilot_pack: vsc_ilbe_a_gr
         class _xx_ACE_wirecutter {count=1; name="ACE_wirecutter";};
         class _xx_ACE_EntrenchingTool {count=1; name="ACE_EntrenchingTool";};
         class _xx_tsp_lockpick {count=1; name="tsp_lockpick";};
-        class _xx_ACRE_PRC117F {count=2; name="ACRE_PRC117F";};
-        class _xx_ACRE_PRC148 {count=1; name="ACRE_PRC148";};
     };
     class TransportWeapons{};
 };
 
-class VSC_4RANGER_MC_Heli_Crew_pack: vsc_ilbe_a_gr
+class VSC_4RANGER_MC_Heli_Crew_pack: tfw_ilbe_DD_black
 {
     scope = 1;
     class TransportMagazines
@@ -487,7 +479,6 @@ class VSC_4RANGER_MC_Heli_Crew_pack: vsc_ilbe_a_gr
         class _xx_ACE_wirecutter {count=1; name="ACE_wirecutter";};
         class _xx_ACE_EntrenchingTool {count=1; name="ACE_EntrenchingTool";};
         class _xx_tsp_lockpick {count=1; name="tsp_lockpick";};
-        class _xx_ACRE_PRC148 {count=1; name="ACRE_PRC148";};
     };
     class TransportWeapons{};
 };

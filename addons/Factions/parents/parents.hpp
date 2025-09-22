@@ -3,6 +3,7 @@
   class B_Heli_Light_01_dynamicLoadout_F;
   class B_Heli_Light_01_F;
   class vtx_H60_base;
+  class Turrets;
   class vtx_HH60: vtx_H60_base
   {
   	class Turrets: Turrets
@@ -134,7 +135,6 @@
   class B_T_Truck_01_box_F;
   class B_T_Truck_01_ammo_F;
   class C_Offroad_01_F;
-  class Turrets;
   class UK3CB_BAF_Apache_AH1_Generic_MTP_RM;
   class B_C_Helipilot_F;
   class B_C_Pilot_F;
@@ -156,10 +156,6 @@
   class UK3CB_BAF_Husky_Passenger_HMG_Sand;
   class UK3CB_BAF_Husky_Passenger_GPMG_Sand;
   class UK3CB_BAF_Husky_Passenger_GMG_Sand;
-  class rksla3_foxhound_lppv_tes;
-  class rksla3_aircraft_tug_opfor;
-  class rksla3_lcvpmk5_viv;
-  class rksla3_lcvpmk5_1;
   class RKSLA3_Static_Rapier_FSC_Blindfire;
   class RKSLA3_Static_Rapier_FSC_Dagger;
   class RKSLA3_Static_Rapier_FSC_Launcher;
@@ -168,7 +164,6 @@
   class UK3CB_BAF_Merlin_HC4_32;
   class UK3CB_BAF_Merlin_HC4_CSAR;
   class B_Kitbag_mcamo;
-  class tfw_ilbe_whip_mc;
   class UK3CB_BAF_B_Kitbag_MTP;
   class UK3CB_BAF_B_Kitbag_OLI;
   class B_supplyCrate_F;
@@ -185,3 +180,5 @@
   class CCA_Armed;
   class CCA_Slick;
   class Bag_Base;
+  class tfw_ilbe_blade_mc;
+  class tfw_ilbe_DD_black;

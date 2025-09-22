@@ -38,8 +38,8 @@ class VSC_4RANGER_MC_PL_IC: B_Soldier_SL_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_PL_2IC: VSC_4RANGER_MC_PL_IC
@@ -99,8 +99,8 @@ class VSC_4RANGER_MC_JFO: B_Soldier_SL_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 // --- Standard Infantry ---
@@ -143,8 +143,8 @@ class VSC_4RANGER_MC_Rifleman: B_Soldier_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Recruit: B_Soldier_F
@@ -189,8 +189,8 @@ class VSC_4RANGER_MC_Recruit: B_Soldier_F
         "HandGrenade","HandGrenade",
         "ACE_CTS9","ACE_CTS9","ACE_CTS9","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "mpx_cobra_patch", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "mpx_cobra_patch", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "mpx_cobra_patch", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "mpx_cobra_patch", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Grenadier: B_Soldier_F
@@ -233,8 +233,8 @@ class VSC_4RANGER_MC_Grenadier: B_Soldier_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Breacher: B_Soldier_F
@@ -277,8 +277,8 @@ class VSC_4RANGER_MC_Breacher: B_Soldier_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 // --- Specialist Roles ---
@@ -321,8 +321,8 @@ class VSC_4RANGER_MC_LMG: B_soldier_AR_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "UK3CB_BAF_762_100Rnd","UK3CB_BAF_762_100Rnd"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Medic: B_medic_F
@@ -363,8 +363,8 @@ class VSC_4RANGER_MC_Medic: B_medic_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 class VSC_4RANGER_MC_Surgeon: B_medic_F
@@ -405,8 +405,8 @@ class VSC_4RANGER_MC_Surgeon: B_medic_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 class VSC_4RANGER_MC_AT: B_soldier_LAT_F
@@ -449,8 +449,8 @@ class VSC_4RANGER_MC_AT: B_soldier_LAT_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Marksman: B_recon_M_F
@@ -491,8 +491,8 @@ class VSC_4RANGER_MC_Marksman: B_recon_M_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "UK3CB_BAF_762_L42A1_20Rnd","UK3CB_BAF_762_L42A1_20Rnd","UK3CB_BAF_762_L42A1_20Rnd","UK3CB_BAF_762_L42A1_20Rnd"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_EOT: B_engineer_F
@@ -533,8 +533,8 @@ class VSC_4RANGER_MC_EOT: B_engineer_F
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 class VSC_4RANGER_MC_Drone_Tech: B_soldier_UAV_F
@@ -575,8 +575,8 @@ class VSC_4RANGER_MC_Drone_Tech: B_soldier_UAV_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 // --- CBRN Roles ---
@@ -631,8 +631,8 @@ class VSC_4RANGER_MC_CBRN_IC: B_Soldier_SL_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 class VSC_4RANGER_MC_CBRN_EOT: B_engineer_F
@@ -683,8 +683,8 @@ class VSC_4RANGER_MC_CBRN_EOT: B_engineer_F
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 class VSC_4RANGER_MC_CBRN_Rifleman: B_Soldier_F
@@ -735,8 +735,8 @@ class VSC_4RANGER_MC_CBRN_Rifleman: B_Soldier_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 // --- Air Crew ---
@@ -781,8 +781,8 @@ class VSC_4RANGER_MC_Heli_Pilot: B_Helipilot_F
         "JCA_17Rnd_9x21_P320_Mag",
         "JCA_25Rnd_45ACP_UMP_Mag","JCA_25Rnd_45ACP_UMP_Mag"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "rhsusf_hgu56p_visor", "CMU33P"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "rhsusf_hgu56p_visor", "CMU33P"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "rhsusf_hgu56p_visor", "CMU33P"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "rhsusf_hgu56p_visor", "CMU33P"};
 };
 
 class VSC_4RANGER_MC_Heli_Crew: B_HeliCrew_F
@@ -825,6 +825,6 @@ class VSC_4RANGER_MC_Heli_Crew: B_HeliCrew_F
         "JCA_17Rnd_9x21_P320_Mag",
         "JCA_25Rnd_45ACP_UMP_Mag","JCA_25Rnd_45ACP_UMP_Mag"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "rhsusf_hgu56p_visor_mask", "CMU33P"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "rhsusf_hgu56p_visor_mask", "CMU33P"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "rhsusf_hgu56p_visor_mask", "CMU33P"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "rhsusf_hgu56p_visor_mask", "CMU33P"};
 };

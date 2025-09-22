@@ -189,8 +189,7 @@
       };
     };
   };
-
-  class VSC_MH60M: vtx_MH60
+  class VSC_MH60M: vtx_MH60M
   {
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";

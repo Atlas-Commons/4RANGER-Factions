@@ -8,7 +8,7 @@ class CfgPatches {
 		version = 1.0;
 		versionAr[] = {1,0,0,0};
 		versionStr = "v1.0.0";
-    requiredAddons[]={"ace_maptools","ace_flashlights","ace_medical_treatment","kat_breathing","ace_hearing","ace_attach","cTab","kat_airway","CBRN_gear","ace_logistics_wirecutter","ace_trenches","A3_Weapons_F","kat_chemical","UK3CB_BAF_Weapons_SmallArms","MoePilotCoveralls","MoePilotVests","rhsusf_c_troops","A3_Characters_F","CuratorOnly_Characters_F_BLUFOR","acre_sys_prc343","kat_stretcher","kat_pharma","kat_circulation","kat_surgery","UK3CB_BAF_Weapons_L131A1","sps_black_hornet","ace_logistics_uavbattery","VS_C_Backpack_Drones","acre_sys_prc148","A3_Drones_F_Weapons_F_Gamma_Items","UK3CB_BAF_Equipment_Soflam","UK3CB_BAF_Weapons_Launchers","UK3CB_BAF_Weapons_L85A3","UK3CB_BAF_Equipment_Uniforms","acre_sys_prc117f"};
+    requiredAddons[]={"ace_maptools","ace_flashlights","ace_medical_treatment","kat_breathing","ace_hearing","ace_attach","cTab","kat_airway","CBRN_gear","ace_logistics_wirecutter","ace_trenches","A3_Weapons_F","kat_chemical","UK3CB_BAF_Weapons_SmallArms","MoePilotCoveralls","MoePilotVests","rhsusf_c_troops","A3_Characters_F","CuratorOnly_Characters_F_BLUFOR","kat_stretcher","kat_pharma","kat_circulation","kat_surgery","UK3CB_BAF_Weapons_L131A1","sps_black_hornet","ace_logistics_uavbattery","VS_C_Backpack_Drones","A3_Drones_F_Weapons_F_Gamma_Items","UK3CB_BAF_Equipment_Soflam","UK3CB_BAF_Weapons_Launchers","UK3CB_BAF_Weapons_L85A3","UK3CB_BAF_Equipment_Uniforms"};
     units[] = {
       "VSC_Transport_Truck",
       "VSC_Repair_Truck",
@@ -86,15 +86,6 @@ class CfgPatches {
       "VSC_mavik_3T",
       "VSC_MQ9",
       "VSC_Mavik3T_Base",
-      "VSC_foxhound_lppv_tes",
-      "VSC_lcvpmk5_viv",
-      "VSC_lcvpmk5_1",
-      "VSC_Static_Rapier_FSC_Launcher",
-      "VSC_Static_Rapier_FSC_Blindfire",
-      "VSC_Static_Rapier_FSC_Dagger",
-      "VSC_F_35C",
-      "VSC_F_35C_S",
-      "VSC_aircraft_tug",
       "VSC_Kitbag",
       "VSC_IC_pack",
       "VSC_Surgeon_pack",
@@ -106,51 +97,7 @@ class CfgPatches {
       "VSC_Fixed_Wing_Crew_pack",
       "VSC_Helicopter_Crew_pack",
       "VSC_Vic_Crew_pack",
-      "VSC_supplyCrate_F",
-      "vsc_ilbe_wd",
-      "vsc_ilbe_d",
-      "vsc_ilbe_coy",
-      "vsc_ilbe_gr",
-      "vsc_ilbe_ocp",
-      "vsc_ilbe_alpine",
-      "vsc_ilbe_black",
-      "vsc_ilbe_MCT",
-      "vsc_ilbe_wd2",
-      "vsc_ilbe_arid",
-      "vsc_ilbe_Multicam",
-      "vsc_ilbe_a_wd",
-      "vsc_ilbe_a_d",
-      "vsc_ilbe_a_coy",
-      "vsc_ilbe_a_gr",
-      "vsc_ilbe_a_ocp",
-      "vsc_ilbe_a_alpine",
-      "vsc_ilbe_a_black",
-      "vsc_ilbe_a_MCT",
-      "vsc_ilbe_a_wd2",
-      "vsc_ilbe_a_arid",
-      "vsc_ilbe_a_Multicam",
-      "vsc_ilbe_dd_wd",
-      "vsc_ilbe_dd_d",
-      "vsc_ilbe_dd_coy",
-      "vsc_ilbe_dd_gr",
-      "vsc_ilbe_dd_ocp",
-      "vsc_ilbe_dd_alpine",
-      "vsc_ilbe_dd_black",
-      "vsc_ilbe_dd_MCT",
-      "vsc_ilbe_dd_wd2",
-      "vsc_ilbe_dd_arid",
-      "vsc_ilbe_dd_Multicam",
-      "vsc_ilbe_blade_wd",
-      "vsc_ilbe_blade_d",
-      "vsc_ilbe_blade_coy",
-      "vsc_ilbe_blade_gr",
-      "vsc_ilbe_blade_ocp",
-      "vsc_ilbe_blade_alpine",
-      "vsc_ilbe_blade_black",
-      "vsc_ilbe_blade_MCT",
-      "vsc_ilbe_blade_wd2",
-      "vsc_ilbe_blade_arid",
-      "vsc_ilbe_blade_Multicam"
+      "VSC_supplyCrate_F"
     };
     weapons[]={};
 		magazines[] = {};
@@ -211,25 +158,6 @@ class DefaultVehicleSystemsDisplayManagerRight
 };
 
 class cfgVehicles {
-	class CAManBase;
-	class CAManBase: CAManBase {
-		class EventHandlers : EventHandlers {
-			class VSC_Optics {
-				init = "
-					if (local (_this select 0)) then {
-						_onSpawn = {
-							_this = _this select 0;
-							_weaponItems = (configfile >> 'cfgvehicles' >> (typeof _this) >> 'vsc_weaponItems') call BIS_fnc_getCfgDataArray;
-							sleep 0.2;
-							{
-								_this addPrimaryWeaponItem _x;
-							} foreach _weaponItems;
-						};
-						[(_this select 0)] spawn _onSpawn;
-					};";
-			};
-		};
-	};
     #include "parents\parents.hpp"
     class VSC_supplyCrate_F: B_supplyCrate_F {
 
@@ -244,8 +172,6 @@ class cfgVehicles {
     };
     #include "Infantry\mc\men.hpp"
     #include "Infantry\mc\backpacks.hpp"
-    #include "Infantry\ilbe\ilbe.hpp"
-    #include "Infantry\ilbe\overrides.hpp"
     #include "vehicles\Air\helis.hpp"
     #include "vehicles\Air\planes.hpp"
     #include "vehicles\Air\jets.hpp"
@@ -260,4 +186,18 @@ class cfgVehicles {
     #include "vehicles\ground\trucks.hpp"
     #include "vehicles\sea\cca.hpp"
 
+};
+class Extended_Init_EventHandlers {
+  class CAManBase {
+    class VSC_Optics {
+      init = "if (local (_this select 0)) then { \
+        [_this select 0] spawn { \
+          params ['_unit']; \
+          private _weaponItems = getArray (configFile >> 'CfgVehicles' >> typeOf _unit >> 'vsc_weaponItems'); \
+          sleep 0.2; \
+          { _unit addPrimaryWeaponItem _x; } forEach _weaponItems; \
+        }; \
+      };";
+    };
+  };
 };
